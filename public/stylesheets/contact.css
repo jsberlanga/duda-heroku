@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: Arya;    
+    margin-top: 120px;
+  }
+  
+.containerForm{
+    max-width:1170px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 50px;
+  }
+  
+  ul{
+    list-style: none;
+    padding:0;
+  }
+  
+  .brand{
+    text-align: center;
+  }
+  
+  .brand span{
+    color:#fff;
+  }
+
+  .wrapper > *{
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 0 rgba(72, 94, 116, 0.3);
+    
+  }
+  
+  .company-info{
+    background:#000911;
+    color: white;
+    font-size: 18px;
+    font-family: Arya;
+    letter-spacing: 0.1em;
+  }
+  
+  .company-info h2, .company-info ul{
+    text-align: center;
+    margin:0 0 1rem 0;
+  }
+
+  
+  /* FORM STYLES */
+  /* .contact form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+  } */
+  
+  .contact form label{
+    display:block;
+    font-size: 18px;
+    padding-top: 1em;
+  }
+  
+  .contact form p{
+    margin:0;
+  }
+
+::-webkit-input-placeholder {
+    font-style: italic;
+    font-size: 15px;
+}
+  
+  .contact form .full{
+    grid-column: 1 / 3;
+  }
+
+  .contact form input:focus, .contact form textarea:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+#success {
+    background: seagreen;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+  .contact form button, .contact form input, .contact form textarea{
+    width:100%;
+    padding:1em;
+    border:1px solid #00091115;
+    border-radius: 4px;
+  }
+  
+  .contact form button{
+    background:#000911;
+    color: white;
+    border:0;
+    font-size: 30px;    
+    text-transform: uppercase;
+  }
+
+  .button{
+    font-size: 20px;
+  }
+  
+  .contact form button:hover{
+    background: seagreen;
+    color:#000911;
+    border: 1px solid #000911;
+    outline:0;
+    transition: background-color 0.5s ease-out;
+  }
+
+  
+  /* LARGE SCREENS */
+  /* @media(min-width:700px){
+    .wrapper{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    } */
+  
+    .wrapper > *{
+      padding:2em;
+    }
+  }
